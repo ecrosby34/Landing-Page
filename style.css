@@ -50,12 +50,10 @@ h1, h2 {
     padding: 0;
     margin-left: 100px;
     font-weight: 900;
+    margin-top: 50px;
    
 }
 
-p.quote {
-
-}
 
 
 .container {
@@ -221,7 +219,8 @@ footer {
     padding: 25px;
 }
 
-@media screen and (max-device-width: 600px)
+
+@media(max-width: 600px) {
     .header .container {
         flex-direction: column;
         padding-top: 20px;
@@ -234,8 +233,17 @@ footer {
    
     }
 
+    @media (min-width: 600) {
+    }
+
 	.main q {
 		font-size: 16px;
 		text-align: center;
 }
+.quote {
+    font-size: 14px;
+    text-align: center;
 }
+    }
+
+
