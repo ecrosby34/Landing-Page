@@ -176,6 +176,7 @@ ul {
 
 .sign .container {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -203,6 +204,7 @@ ul {
     transition-duration: .2s;
     display: inline-block; /* To prevent full width */
     text-align: center; /* Center text within the box */
+    width: 200px;
 }
 
 button:hover {
