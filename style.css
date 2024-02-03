@@ -131,7 +131,6 @@ ul {
 
 .header .container {
     display: flex;
-    
     align-items: center;
     justify-content: space-between;
 }
@@ -234,4 +233,8 @@ footer {
         text-align: center;
    
     }
+
+	.sign .container {
+		display: block;
+		text-align: center;
 }
