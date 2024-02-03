@@ -221,7 +221,7 @@ footer {
     padding: 25px;
 }
 
-@media(max-width: 600px) {
+@media screen and (min-device-width: 600px)
     .header .container {
         flex-direction: column;
         padding-top: 20px;
