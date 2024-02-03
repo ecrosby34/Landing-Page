@@ -235,6 +235,6 @@ footer {
     }
 
 	.main {
-		display: block;
+		flex-direction: column;
 		text-align: center;
 }
